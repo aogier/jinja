@@ -12,8 +12,11 @@ unreleased
 - Async support is only loaded the first time an
   :class:`~environment.Environment` enables it, in order to avoid a
   slow initial import. (`#765`_)
+- Added support for wrapping on whitespaces only in ``wordwrap``
+  filter. (`#550`_)
 
 .. _#765: https://github.com/pallets/jinja/issues/765
+.. _#550: https://github.com/pallets/jinja/issues/550
 
 
 Version 2.10
